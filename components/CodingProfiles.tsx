@@ -1,33 +1,39 @@
 import React from "react";
 import { Button } from "./ui/MovingBorders";
 
+// Importing the logos explicitly
+import leetcodeLogo from "../public/leetcode-logo.svg";
+import gfgLogo from "../public/gfg-logo.svg";
+import codechefLogo from "../public/codelogo.svg";
+import cnLogo from "../public/cnlogo.svg";
+
 const codingProfiles = [
   {
     id: 1,
     name: "LeetCode",
     url: "https://leetcode.com/u/Tusharr2004/",
-    logo: `${process.env.PUBLIC_URL}/leetcode-logo.svg`,
+    logo: leetcodeLogo,
     description: "Solved over 790 questions with a streak of 415 days.",
   },
   {
     id: 2,
     name: "GeeksforGeeks",
     url: "https://www.geeksforgeeks.org/user/tusharbhard2004/",
-    logo: `${process.env.PUBLIC_URL}/gfg-logo.svg`,
+    logo: gfgLogo,
     description: "Institute Rank 110, solved 470 questions with a streak of 250 days.",
   },
   {
     id: 3,
     name: "CodeChef",
     url: "https://www.codechef.com/users/tushar2004b",
-    logo: `${process.env.PUBLIC_URL}/codelogo.svg`,
+    logo: codechefLogo,
     description: "Division 3 with a streak of 620 days.",
   },
   {
     id: 4,
     name: "Coding Ninjas",
     url: "https://www.naukri.com/code360/profile/Bhar_dwajTushar",
-    logo: `${process.env.PUBLIC_URL}/cnlogo.svg`,
+    logo: cnLogo,
     description: "250 days streak.",
   },
 ];
