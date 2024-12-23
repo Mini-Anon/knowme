@@ -2,7 +2,7 @@
   "name": "minianon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mini-anon.github.io/knowme"
+  "homepage": "https://mini-anon.github.io/knowme",
 
   "scripts": {
     "dev": "next dev",
