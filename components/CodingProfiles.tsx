@@ -6,29 +6,28 @@ const codingProfiles = [
     id: 1,
     name: "LeetCode",
     url: "https://leetcode.com/u/Tusharr2004/",
-    logo: "/leetcode-logo.svg",
+    logo: "/leetcode-logo.svg", // Images directly in the public folder
     description: "Solved over 790 questions with a streak of 415 days.",
   },
   {
     id: 2,
     name: "GeeksforGeeks",
     url: "https://www.geeksforgeeks.org/user/tusharbhard2004/",
-    logo: "/gfg-logo.svg",
+    logo: "/gfg-logo.svg", // Images directly in the public folder
     description: "Institute Rank 110, solved 470 questions with a streak of 250 days.",
   },
   {
     id: 3,
     name: "CodeChef",
     url: "https://www.codechef.com/users/tushar2004b",
-    logo: "/codelogo.svg",
-    // logo: "/codechef.jfif",
+    logo: "/codelogo.svg", // Images directly in the public folder
     description: "Division 3 with a streak of 620 days.",
   },
   {
     id: 4,
     name: "Coding Ninjas",
     url: "https://www.naukri.com/code360/profile/Bhar_dwajTushar",
-    logo: "/cnlogo.svg",
+    logo: "/cnlogo.svg", // Images directly in the public folder
     description: "250 days streak.",
   },
 ];
